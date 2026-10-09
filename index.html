@@ -90,7 +90,7 @@
         <button class="complete-button" type="button" data-complete="connexion">Marquer ce chapitre comme terminé</button>
       </section>
 
-      <section class="tutorial-section" id="publication" data-title="Enregistrer et publier" data-keywords="workflow brouillon prêt révision enregistrer publier archive statut aperçu">
+      <section class="tutorial-section" id="publication" data-title="Enregistrer et publier" data-keywords="workflow brouillon prêt révision enregistrer publier archive statut aperçu supprimer suppression effacer">
         <p class="chapter-number">Chapitre 2</p><h2>Comprendre l’enregistrement et la publication</h2>
         <p class="goal">Objectif : savoir exactement quand une modification devient visible.</p>
         <div class="workflow" aria-label="Les quatre étapes de publication">
@@ -103,7 +103,7 @@
         <div class="status-table" role="table" aria-label="Signification des statuts">
           <div role="row"><strong role="cell">Publié</strong><span role="cell">Visible sur le site après publication.</span></div>
           <div role="row"><strong role="cell">Brouillon</strong><span role="cell">Invisible du public, mais visible dans l’aperçu.</span></div>
-          <div role="row"><strong role="cell">Archivé</strong><span role="cell">Retiré du site sans être supprimé.</span></div>
+          <div role="row"><strong role="cell">Archivé</strong><span role="cell">Retiré du site sans être supprimé. Revient d’un clic.</span></div>
         </div>
         <ol class="steps compact">
           <li><span class="step-number">1</span><div><h3>Vérifiez l’aperçu</h3><p>Il se met à jour pendant votre saisie.</p></div></li>
@@ -111,6 +111,13 @@
           <li><span class="step-number">3</span><div><h3>Déplacez-la vers « Prêt »</h3><p>Faites-le uniquement après avoir relu les textes, images, prix et liens.</p></div></li>
           <li><span class="step-number">4</span><div><h3>Cliquez sur « Publier »</h3><p>Attendez la reconstruction, puis utilisez « Voir en direct » pour contrôler le site public.</p></div></li>
         </ol>
+        <h3>Archiver ou supprimer ?</h3>
+        <div class="two-columns">
+          <article><h3>Archiver (conseillé)</h3><p>Champ « Publication » → <strong>Archivé</strong>, puis enregistrer et publier. La fiche quitte le site mais garde tout : textes, images, adresses. Pour la remettre, repassez-la sur Publié.</p></article>
+          <article><h3>Supprimer</h3><p>Bouton <strong>« Supprimer l’entrée »</strong>, en haut de la fiche, puis confirmer. La fiche est effacée pour de bon, <strong>tout de suite</strong>, sans passer par « Publier ».</p><ul><li>Ce qui la citait s’en passe : un livre disparaît des pages qui le montraient, une page disparaît du menu et des liens.</li><li>Son image et ses PDF restent dans Media, inutilisés : vous pouvez les y supprimer aussi.</li></ul></article>
+        </div>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/24-suppression-protegee.webp" data-alt="Suppression refusée avec sa raison"><img src="assets/images/24-suppression-protegee.webp" alt="Fiche d’un auteur : le bouton Supprimer l’entrée est grisé et un message explique que la personne figure dans un livre"><span>Agrandir l’image</span></button><figcaption>Une fiche dont d’autres dépendent : le bouton est grisé, et un clic dit pourquoi et quoi faire.</figcaption></figure>
+        <aside class="callout callout-warning"><strong>Certaines fiches ne se suppriment pas</strong><p>Une personne qui signe un livre ou un projet, une collection qui contient des livres, le dernier livre d’une collection ou son seul livre disponible, et les mentions légales. Archivez-les, ou retirez d’abord ce qui en dépend : le message le précise.</p></aside>
         <button class="complete-button" type="button" data-complete="publication">Marquer ce chapitre comme terminé</button>
       </section>
 
@@ -229,7 +236,7 @@
         <ol class="steps compact">
           <li><span class="step-number">1</span><div><h3>Ajoutez le titre et la description</h3><p>Choisissez aussi la collection et la période de sortie prévue.</p></div></li>
           <li><span class="step-number">2</span><div><h3>Renseignez les intervenants</h3><p>Utilisez « Auteurs » si une fiche existe. Sinon, écrivez le nom dans « Auteurs sans fiche » ou « Illustrateurs sans fiche ».</p></div></li>
-          <li><span class="step-number">3</span><div><h3>Au moment de la parution</h3><p>Créez le livre, puis supprimez le projet. C’est la seule rubrique où la suppression est autorisée.</p></div></li>
+          <li><span class="step-number">3</span><div><h3>Au moment de la parution</h3><p>Créez le livre, puis supprimez le projet (bouton « Supprimer l’entrée », en haut de la fiche).</p></div></li>
         </ol>
         <button class="complete-button" type="button" data-complete="projets">Marquer ce chapitre comme terminé</button>
       </section>
@@ -246,7 +253,7 @@
           <li><span class="step-number">4</span><div><h3>Enregistrez puis publiez</h3><p>Comme au chapitre 2. La page prend place à la fin de la page « La maison » et entre dans le plan du site. Tout le reste du formulaire est facultatif.</p></div></li>
         </ol>
         <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/20-mes-pages-page.webp" data-alt="Nouvelle page vide"><img src="assets/images/20-mes-pages-page.webp" alt="Formulaire d’une nouvelle page avec une section Texte déjà ouverte"><span>Agrandir l’image</span></button><figcaption>Une nouvelle page : un titre, le texte de la section déjà ouverte, puis « Publier ». Le bouton gris ajoute une section Texte, Texte et livres, ou Offre à vendre.</figcaption></figure>
-        <aside class="callout callout-help"><strong>Publié, Brouillon ou Archivé</strong><p>Le champ « Publication » décide si la page est visible. <em>Brouillon</em> : la page n’apparaît que dans l’aperçu. <em>Archivé</em> : elle disparaît du site sans être effacée. Une page ne se supprime pas : archivez-la.</p></aside>
+        <aside class="callout callout-help"><strong>Publié, Brouillon ou Archivé</strong><p>Le champ « Publication » décide si la page est visible. <em>Brouillon</em> : la page n’apparaît que dans l’aperçu. <em>Archivé</em> : elle disparaît du site sans être effacée. Pour l’effacer pour de bon : « Supprimer l’entrée » (chapitre 2) ; elle quitte alors aussi le menu et les liens qui y menaient.</p></aside>
 
         <h3>Les trois sortes de section</h3>
         <p>Le corps de la page est fait de sections, une par idée. Le bouton « Ajouter une entrée de type section » propose trois sortes. Chacune ne montre que ses propres champs.</p>
@@ -329,7 +336,7 @@
         <button class="complete-button" type="button" data-complete="medias">Marquer ce chapitre comme terminé</button>
       </section>
 
-      <section class="tutorial-section" id="depannage" data-title="Corriger une erreur" data-keywords="erreur refus validation ordre paypal alt média lien seo relation brouillon archive aide">
+      <section class="tutorial-section" id="depannage" data-title="Corriger une erreur" data-keywords="erreur refus validation ordre paypal alt média lien seo relation brouillon archive aide supprimé inconnue">
         <p class="chapter-number">Chapitre 14</p><h2>Que faire quand la publication est refusée ?</h2>
         <p class="lead small">Rien n’est perdu. Votre modification reste dans le flux éditorial : lisez le message, corrigez la fiche indiquée, puis relancez la publication.</p>
         <div class="error-list">
@@ -340,7 +347,7 @@
           <details><summary>« personne en brouillon » ou « livre lié non publié »</summary><p>Publiez d’abord le contenu lié, ou retirez-le de la fiche publique.</p></details>
           <details><summary>« titre SEO trop long »</summary><p>Raccourcissez le titre à 60 caractères ou la description à 160 caractères.</p></details>
           <details><summary>« média introuvable »</summary><p>Remettez l’image ou retirez sa référence dans le texte.</p></details>
-          <details><summary>« lien introuvable »</summary><p>Corrigez l’adresse du lien interne ou retirez-le.</p></details>
+          <details><summary>« personne inconnue » ou « collection inconnue »</summary><p>Une fiche supprimée était encore citée par une autre, créée ou modifiée depuis la dernière publication. Ouvrez la fiche nommée dans le message et choisissez une autre personne ou une autre collection.</p></details>
         </div>
         <div class="final-check"><h3>Avant chaque publication</h3><ul><li>Relire le titre et les textes.</li><li>Contrôler l’aperçu à droite.</li><li>Vérifier images et textes alternatifs.</li><li>Contrôler prix et bouton PayPal.</li><li>Ne pas changer l’adresse d’une page déjà publiée.</li><li>Après publication, ouvrir la vraie page.</li></ul></div>
         <button class="complete-button" type="button" data-complete="depannage">Marquer ce chapitre comme terminé</button>

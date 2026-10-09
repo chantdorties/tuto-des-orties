@@ -38,6 +38,11 @@ Mise à jour suivante : `main`, commit `9eb557b` (PR #39). Le champ « Anciennes
 adresses » est caché dans l’administration (les redirections de l’ancien site restent
 actives) : chapitres 4, 5, 10, 11 et liste finale.
 
+Mise à jour suivante : `main`, commit `8686190` (PR #41). Le bouton « Supprimer
+l’entrée » s’active pour les livres, personnes, collections, actualités et pages ; les
+fiches dont d’autres dépendent sont protégées, avec la raison affichée : chapitres 2,
+9, 10, 14, capture 24.
+
 ## Règle de provenance
 
 - L’écran de connexion peut provenir de l’adresse publique.

@@ -30,6 +30,7 @@ Rien n’a été enregistré. Une capture doit montrer le libellé, l’action e
 | `21-blocs.webp` | Mes pages › une page, bloc Texte mis en valeur | Réglages d’un bloc et résultat dans l’aperçu | locale, page d’essai non enregistrée (`f15154b`) |
 | `22-composants.webp` | Mes pages › une page, menu « Ajouter un composant » | Trouver les blocs de mise en forme | locale, page d’essai non enregistrée (`f15154b`) |
 | `23-sections-ajoutees.webp` | Pages principales › Accueil, groupe « 5. Sections ajoutées » | Ajouter une section et choisir son emplacement | locale, section d’essai non enregistrée (`3239698`) |
+| `24-suppression-protegee.webp` | Auteurs et illustrateurs › Albert Londres, clic sur « Supprimer l’entrée » | Comprendre pourquoi une fiche ne se supprime pas | locale, rien de supprimé ni d’enregistré (`8686190`) |
 
 ## Parcours couverts par le texte
 
