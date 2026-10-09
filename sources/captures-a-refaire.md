@@ -1,7 +1,8 @@
 # Captures à refaire
 
-Aucune. Les vingt captures ont été refaites le 9 octobre 2026 contre `main` (commit
-`4f4388e`), voir `matrice-captures.md`.
+Aucune. Les vingt premières captures ont été refaites le 9 octobre 2026 contre `main`
+(commit `4f4388e`), les captures 21 et 22 (blocs de mise en forme) contre `f15154b` ;
+voir `matrice-captures.md`.
 
 ## Quand refaire une capture
 

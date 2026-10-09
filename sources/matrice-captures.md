@@ -27,6 +27,8 @@ Rien n’a été enregistré. Une capture doit montrer le libellé, l’action e
 | `18-pages-principales.webp` | Pages › Pages principales | Les sept pages principales | locale |
 | `19-page-principale.webp` | Pages principales › Catalogue | Fiche d’une page principale et aperçu | locale |
 | `20-mes-pages-page.webp` | Mes pages › + Page | Nouvelle page : titre et section Texte ouverte | locale, non enregistrée |
+| `21-blocs.webp` | Mes pages › une page, bloc Texte mis en valeur | Réglages d’un bloc et résultat dans l’aperçu | locale, page d’essai non enregistrée (`f15154b`) |
+| `22-composants.webp` | Mes pages › une page, menu « Ajouter un composant » | Trouver les blocs de mise en forme | locale, page d’essai non enregistrée (`f15154b`) |
 
 ## Parcours couverts par le texte
 

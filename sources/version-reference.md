@@ -19,6 +19,11 @@ Cette version contient :
 
 Toutes les captures ont été refaites sur cette version.
 
+Mise à jour du même jour : `main`, commit `f15154b` (PR #34). Elle ajoute le bouton
+barré et les blocs de mise en forme (texte mis en valeur, encadré, séparateur) dans
+les sections de « Mes pages » et le corps des actualités : chapitres 8, 10 et 13,
+captures 21 et 22.
+
 ## Règle de provenance
 
 - L’écran de connexion peut provenir de l’adresse publique.
