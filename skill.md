@@ -202,6 +202,8 @@ l’avancement de la modification, pas la visibilité du contenu.
 - Toute réorganisation CSS doit conserver l’apparence existante avant/après, sur
   desktop, tablette et mobile.
 - Les couleurs doivent rester lisibles sur les fonds, liens, boutons et textes.
+- Le pied de page affiche aussi, en dur, le crédit « Site créé par Facundo Varas —
+  varascundo.com » ; ce lien ne vient pas des réglages éditoriaux.
 
 ### Bannière cookies
 
