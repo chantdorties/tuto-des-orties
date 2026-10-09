@@ -34,6 +34,10 @@ Mise à jour suivante : `main`, commit `3239698` (PR #38). Elle ajoute à chaque
 principale un groupe « Sections ajoutées » (texte, livres, offre PayPal) placé à un
 emplacement choisi : chapitres 3 et 4, capture 23.
 
+Mise à jour suivante : `main`, commit `9eb557b` (PR #39). Le champ « Anciennes
+adresses » est caché dans l’administration (les redirections de l’ancien site restent
+actives) : chapitres 4, 5, 10, 11 et liste finale.
+
 ## Règle de provenance
 
 - L’écran de connexion peut provenir de l’adresse publique.

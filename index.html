@@ -143,11 +143,11 @@
         <button class="complete-button" type="button" data-complete="accueil">Marquer ce chapitre comme terminé</button>
       </section>
 
-      <section class="tutorial-section" id="pages-principales" data-title="Pages principales" data-keywords="pages accueil catalogue auteurs collections actualités maison projets introduction seo anciennes adresses facultatif vide facebook masquer section ajoutée ajouter emplacement liste">
+      <section class="tutorial-section" id="pages-principales" data-title="Pages principales" data-keywords="pages accueil catalogue auteurs collections actualités maison projets introduction seo facultatif vide facebook masquer section ajoutée ajouter emplacement liste">
         <p class="chapter-number">Chapitre 4</p><h2>Modifier une page principale</h2>
         <p class="goal">Les pages générées ont maintenant chacune leur propre fiche : <strong>Pages → Pages principales</strong>.</p>
         <div class="map-grid">
-          <article><span>1</span><h3>Accueil</h3><p>Tout le contenu de la page d’accueil, son référencement et ses anciennes adresses.</p></article>
+          <article><span>1</span><h3>Accueil</h3><p>Tout le contenu de la page d’accueil et son référencement.</p></article>
           <article><span>2</span><h3>Catalogue</h3><p>Petite ligne, titre, introduction et description pour Google ; la liste des livres se remplit automatiquement.</p></article>
           <article><span>3</span><h3>Auteurs et illustrateurs</h3><p>Introduction et référencement de la page des personnes.</p></article>
           <article><span>4</span><h3>Collections, Actualités, La maison et Projets</h3><p>Une fiche séparée pour chaque page, avec ses propres textes et réglages techniques. Actualités contient aussi le bloc Facebook du bas de page.</p></article>
@@ -155,7 +155,7 @@
         <ol class="steps compact">
           <li><span class="step-number">1</span><div><h3>Ouvrez le menu « Pages »</h3><p>Il rassemble « Pages principales » et « Mes pages ». Dépliez-le si nécessaire.</p></div></li>
           <li><span class="step-number">2</span><div><h3>Choisissez la page à modifier</h3><p>Seul le titre est obligatoire : la petite ligne au-dessus et l’introduction peuvent rester vides, elles disparaissent alors de la page. La liste, les livres, les auteurs et les actualités ne se modifient pas ici : ils viennent de leurs rubriques respectives.</p></div></li>
-          <li><span class="step-number">3</span><div><h3>Ouvrez « Réglages techniques » seulement si besoin</h3><p>Ce bloc replié contient référencement et anciennes adresses. Le jeton <code>{nombre}</code> devient automatiquement le nombre réel.</p></div></li>
+          <li><span class="step-number">3</span><div><h3>Ouvrez « Réglages techniques » seulement si besoin</h3><p>Ce bloc replié contient le référencement. Le jeton <code>{nombre}</code> devient automatiquement le nombre réel.</p></div></li>
         </ol>
         <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/17-pages-menu.webp" data-alt="Menu Pages déplié"><img src="assets/images/17-pages-menu.webp" alt="Le menu de gauche avec Pages déplié sur Mes pages et Pages principales"><span>Agrandir l’image</span></button><figcaption>« Pages » se déplie sur ses deux listes. La rubrique ouverte est surlignée.</figcaption></figure>
         <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/18-pages-principales.webp" data-alt="Liste des Pages principales"><img src="assets/images/18-pages-principales.webp" alt="La liste des sept pages principales"><span>Agrandir l’image</span></button><figcaption>Les sept pages principales. Il n’y a pas de bouton d’ajout : ces pages existent toujours.</figcaption></figure>
@@ -176,7 +176,7 @@
           <li><span class="step-number">3</span><div><h3>Complétez la vente</h3><p>Indiquez le prix et l’identifiant PayPal de 13 caractères. Si le livre n’est pas disponible, décochez « Disponible ».</p></div></li>
           <li><span class="step-number">4</span><div><h3>Ajoutez les caractéristiques</h3><p>Type, âge, format, reliure, ISBN, illustrations et extraits PDF.</p></div></li>
           <li><span class="step-number">5</span><div><h3>Réglez la mise en avant</h3><p>Une collection doit avoir exactement un livre disponible mis en avant. Donnez-lui un ordre unique.</p></div></li>
-          <li><span class="step-number">6</span><div><h3>Relisez l’adresse</h3><p>Après la première publication, ne changez plus l’adresse. Si cela devient indispensable, ajoutez l’ancienne adresse dans le champ prévu.</p></div></li>
+          <li><span class="step-number">6</span><div><h3>Relisez l’adresse</h3><p>Après la première publication, ne changez plus l’adresse : les liens déjà diffusés ne mèneraient plus nulle part. Si cela devient indispensable, demandez à la personne qui s’occupe du site d’ajouter une redirection.</p></div></li>
         </ol>
         <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/07-livre-fiche.webp" data-alt="Fiche d’un livre"><img src="assets/images/07-livre-fiche.webp" alt="Fiche d’un livre avec les champs à gauche et l’aperçu à droite"><span>Agrandir l’image</span></button><figcaption>La fiche commence par l’essentiel. Les parties Vente, Caractéristiques et Réglages techniques se trouvent plus bas.</figcaption></figure>
         <aside class="callout callout-warning"><strong>Vérifiez toujours le bouton PayPal après publication</strong><p>PayPal doit afficher le bon article et le bon montant. Pour une offre spéciale, créez un bouton PayPal propre à l’offre : ne réutilisez pas celui du livre au plein tarif.</p></aside>
@@ -270,7 +270,6 @@
         <p>Rarement utiles : la page fonctionne sans y toucher. Ouvrez le bloc d’un clic, en bas du formulaire.</p>
         <ul>
           <li><strong>Rang de la page</strong> : la page « La maison » présente toutes vos pages l’une après l’autre. Le plus petit nombre vient en premier ; vide, la page vient en dernier.</li>
-          <li><strong>Anciennes adresses</strong> : les adresses de l’ancien site qui doivent mener ici. Elles sont déjà remplies quand il le faut.</li>
           <li><strong>Référencement</strong> : titre (60 caractères maximum) et description (160 caractères, un compteur aide) montrés par Google. Vides, le site reprend le titre et le texte de la page.</li>
         </ul>
         <aside class="callout callout-help"><strong>Et dans le menu du haut ?</strong><p>Une nouvelle page n’y apparaît pas toute seule. Pour l’ajouter : <strong>Réglages du site → Menu principal</strong> (chapitre 11). Avant d’enregistrer, relisez toujours l’aperçu complet à droite.</p></aside>
@@ -289,7 +288,7 @@
           <article><h3>Apparence</h3><p>Neuf couleurs et deux polices.</p></article>
         </div>
         <aside class="callout callout-help"><strong>Et les textes des pages ?</strong><p>Ils ne sont plus dans les réglages. L’accueil et le titre ou l’introduction du catalogue, des auteurs, des collections, des actualités, de la maison et des projets se modifient dans <strong>Pages → Pages principales</strong> ; les pages libres dans <strong>Pages → Mes pages</strong>.</p></aside>
-        <aside class="callout callout-warning"><strong>Réglages techniques</strong><p>Ne changez pas le domaine ou l’adresse d’une page déjà publiée sans raison précise. Une ancienne adresse doit être conservée pour éviter les liens cassés.</p></aside>
+        <aside class="callout callout-warning"><strong>Réglages techniques</strong><p>Ne changez pas le domaine ou l’adresse d’une page déjà publiée sans raison précise : les liens déjà diffusés seraient cassés.</p></aside>
         <button class="complete-button" type="button" data-complete="reglages">Marquer ce chapitre comme terminé</button>
       </section>
 
@@ -343,7 +342,7 @@
           <details><summary>« média introuvable »</summary><p>Remettez l’image ou retirez sa référence dans le texte.</p></details>
           <details><summary>« lien introuvable »</summary><p>Corrigez l’adresse du lien interne ou retirez-le.</p></details>
         </div>
-        <div class="final-check"><h3>Avant chaque publication</h3><ul><li>Relire le titre et les textes.</li><li>Contrôler l’aperçu à droite.</li><li>Vérifier images et textes alternatifs.</li><li>Contrôler prix et bouton PayPal.</li><li>Ne pas changer une ancienne adresse sans redirection.</li><li>Après publication, ouvrir la vraie page.</li></ul></div>
+        <div class="final-check"><h3>Avant chaque publication</h3><ul><li>Relire le titre et les textes.</li><li>Contrôler l’aperçu à droite.</li><li>Vérifier images et textes alternatifs.</li><li>Contrôler prix et bouton PayPal.</li><li>Ne pas changer l’adresse d’une page déjà publiée.</li><li>Après publication, ouvrir la vraie page.</li></ul></div>
         <button class="complete-button" type="button" data-complete="depannage">Marquer ce chapitre comme terminé</button>
       </section>
 

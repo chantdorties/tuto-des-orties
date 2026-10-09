@@ -12,7 +12,7 @@ personne ouvre ensuite la véritable administration pour modifier le site.
 
 ## Version illustrée
 
-- référence du code : branche `main`, commit `3239698`, 9 octobre 2026 (sections ajoutées aux pages principales, PR #38) ;
+- référence du code : branche `main`, commit `9eb557b`, 9 octobre 2026 (anciennes adresses cachées, PR #39) ;
 - les vingt-trois captures ont été faites ce jour-là sur cette version (voir
   `sources/matrice-captures.md`), y compris le menu « Pages », les Pages principales et
   une nouvelle page de « Mes pages ».
