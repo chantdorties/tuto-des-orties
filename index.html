@@ -114,37 +114,44 @@
         <button class="complete-button" type="button" data-complete="publication">Marquer ce chapitre comme terminé</button>
       </section>
 
-      <section class="tutorial-section" id="accueil" data-title="Modifier l’accueil" data-keywords="accueil bandeau information couvertures collections suivre maison mise avant">
+      <section class="tutorial-section" id="accueil" data-title="Modifier l’accueil" data-keywords="accueil bandeau information couvertures collections suivre maison mise avant masquer masqué cacher vide facultatif retirer bouton encadré">
         <p class="chapter-number">Chapitre 3</p><h2>Modifier la page d’accueil</h2>
         <p class="goal">Chemin : <strong>Pages → Pages principales → Accueil</strong>.</p>
         <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/04-accueil.webp" data-alt="Formulaire de la page d’accueil et aperçu"><img src="assets/images/04-accueil.webp" alt="Formulaire de la page d’accueil à gauche et aperçu à droite"><span>Agrandir l’image</span></button><figcaption>Le formulaire suit la page de haut en bas. Les numéros de l’aperçu correspondent aux numéros du formulaire.</figcaption></figure>
         <div class="map-grid">
-          <article><span>1</span><h3>Le bandeau d’ouverture</h3><p>Rubrique, grand titre, fin du titre en couleur, accroche et deux boutons.</p></article>
-          <article><span>2</span><h3>Le bloc d’information</h3><p>Situation de la maison, commandes, libraires, particuliers, don et offres.</p></article>
-          <article><span>3</span><h3>Les collections</h3><p>Titre et texte au-dessus des six collections.</p></article>
-          <article><span>4</span><h3>Suivre la maison</h3><p>Bandeau sombre avec les cartes Actualités et Manuscrits.</p></article>
+          <article><span>1</span><h3>Le bandeau d’ouverture</h3><p>Rubrique, grand titre, fin du titre en couleur, accroche et deux boutons. Toujours affiché.</p></article>
+          <article><span>2</span><h3>Le bloc d’information</h3><p>Situation de la maison, commandes, libraires, particuliers, don et offres. Peut être masqué.</p></article>
+          <article><span>3</span><h3>Les collections</h3><p>Titre et texte au-dessus des six collections. Peut être masqué.</p></article>
+          <article><span>4</span><h3>Suivre la maison</h3><p>Bandeau sombre avec les cartes Actualités et Manuscrits. Peut être masqué.</p></article>
         </div>
+        <h3>Masquer un bloc, laisser un champ vide</h3>
+        <div class="two-columns">
+          <article><h3>Masquer un bloc</h3><p>Les blocs 2, 3 et 4 commencent par une case « Masquer ce bloc ». Cochée, le bloc disparaît du site, mais ses textes restent dans le formulaire : décochez-la pour le faire revenir tel quel.</p></article>
+          <article><h3>Laisser un champ vide</h3><p>Seul le grand titre est obligatoire. Ce qui reste vide n’apparaît pas :</p><ul><li>un encadré Libraires ou Particuliers sans titre ni texte ;</li><li>un bouton (catalogue, collections, don, offres) sans libellé ;</li><li>une carte Actualités ou Manuscrits sans titre.</li></ul><p>Le reste se réorganise : un encadré seul prend toute la largeur.</p></article>
+        </div>
+        <aside class="callout callout-help"><strong>Ce qui est masqué reste dans l’aperçu</strong><p>À droite, un bloc masqué s’affiche grisé, avec la mention « Masqué sur le site ». Vous retrouvez ainsi ses textes pour le réafficher plus tard.</p></aside>
         <aside class="callout callout-help"><strong>Les couvertures ne se choisissent pas ici</strong><p>Ouvrez chaque livre et cochez « Mis en avant sur l’accueil ». Une seule couverture par collection peut être sélectionnée. Le champ « Nombre de couvertures affichées » décide combien seront montrées.</p></aside>
         <button class="complete-button" type="button" data-complete="accueil">Marquer ce chapitre comme terminé</button>
       </section>
 
-      <section class="tutorial-section" id="pages-principales" data-title="Pages principales" data-keywords="pages accueil catalogue auteurs collections actualités maison projets introduction seo anciennes adresses">
+      <section class="tutorial-section" id="pages-principales" data-title="Pages principales" data-keywords="pages accueil catalogue auteurs collections actualités maison projets introduction seo anciennes adresses facultatif vide facebook masquer">
         <p class="chapter-number">Chapitre 4</p><h2>Modifier une page principale</h2>
         <p class="goal">Les pages générées ont maintenant chacune leur propre fiche : <strong>Pages → Pages principales</strong>.</p>
         <div class="map-grid">
           <article><span>1</span><h3>Accueil</h3><p>Tout le contenu de la page d’accueil, son référencement et ses anciennes adresses.</p></article>
-          <article><span>2</span><h3>Catalogue</h3><p>Petite ligne, titre, introduction et description SEO ; la liste des livres se remplit automatiquement.</p></article>
+          <article><span>2</span><h3>Catalogue</h3><p>Petite ligne, titre, introduction et description pour Google ; la liste des livres se remplit automatiquement.</p></article>
           <article><span>3</span><h3>Auteurs et illustrateurs</h3><p>Introduction et référencement de la page des personnes.</p></article>
-          <article><span>4</span><h3>Collections, Actualités, La maison et Projets</h3><p>Une fiche séparée pour chaque page, avec ses propres textes et réglages techniques.</p></article>
+          <article><span>4</span><h3>Collections, Actualités, La maison et Projets</h3><p>Une fiche séparée pour chaque page, avec ses propres textes et réglages techniques. Actualités contient aussi le bloc Facebook du bas de page.</p></article>
         </div>
         <ol class="steps compact">
           <li><span class="step-number">1</span><div><h3>Ouvrez le menu « Pages »</h3><p>Il rassemble « Pages principales » et « Mes pages ». Dépliez-le si nécessaire.</p></div></li>
-          <li><span class="step-number">2</span><div><h3>Choisissez la page à modifier</h3><p>La liste, les livres, les auteurs et les actualités ne se modifient pas ici : ils viennent de leurs rubriques respectives.</p></div></li>
+          <li><span class="step-number">2</span><div><h3>Choisissez la page à modifier</h3><p>Seul le titre est obligatoire : la petite ligne au-dessus et l’introduction peuvent rester vides, elles disparaissent alors de la page. La liste, les livres, les auteurs et les actualités ne se modifient pas ici : ils viennent de leurs rubriques respectives.</p></div></li>
           <li><span class="step-number">3</span><div><h3>Ouvrez « Réglages techniques » seulement si besoin</h3><p>Ce bloc replié contient référencement et anciennes adresses. Le jeton <code>{nombre}</code> devient automatiquement le nombre réel.</p></div></li>
         </ol>
         <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/17-pages-menu.webp" data-alt="Menu Pages déplié"><img src="assets/images/17-pages-menu.webp" alt="Le menu de gauche avec Pages déplié sur Mes pages et Pages principales"><span>Agrandir l’image</span></button><figcaption>« Pages » se déplie sur ses deux listes. La rubrique ouverte est surlignée.</figcaption></figure>
         <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/18-pages-principales.webp" data-alt="Liste des Pages principales"><img src="assets/images/18-pages-principales.webp" alt="La liste des sept pages principales"><span>Agrandir l’image</span></button><figcaption>Les sept pages principales. Il n’y a pas de bouton d’ajout : ces pages existent toujours.</figcaption></figure>
         <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/19-page-principale.webp" data-alt="Fiche Catalogue dans Pages principales"><img src="assets/images/19-page-principale.webp" alt="Fiche Catalogue avec son aperçu"><span>Agrandir l’image</span></button><figcaption>Une page principale : petite ligne, titre et introduction à gauche, le haut de la page à droite. « Réglages techniques » reste replié.</figcaption></figure>
+        <aside class="callout callout-help"><strong>Le bloc Facebook des actualités</strong><p>Dans <strong>Pages principales → Actualités</strong>, cochez « Masquer ce bloc » pour retirer l’invitation à suivre la maison sur Facebook, en bas de la page. Affiché, il garde son titre et son bouton ; la petite ligne et le texte sont facultatifs.</p></aside>
         <aside class="callout callout-warning"><strong>Ne cherchez plus l’accueil dans Réglages du site</strong><p>Réglages du site contient désormais uniquement ce qui vaut pour tout le site : identité, menu, pied de page, paiement et apparence.</p></aside>
         <button class="complete-button" type="button" data-complete="pages-principales">Marquer ce chapitre comme terminé</button>
       </section>
@@ -217,7 +224,7 @@
         <button class="complete-button" type="button" data-complete="projets">Marquer ce chapitre comme terminé</button>
       </section>
 
-      <section class="tutorial-section" id="pages" data-title="Créer une page" data-keywords="page maison section paypal livre lié galerie photo document pdf lien courriel seo slug adresse rang menu intertitre brouillon archivé mentions légales centré couleur encadré séparateur">
+      <section class="tutorial-section" id="pages" data-title="Créer une page" data-keywords="page maison section paypal livre lié galerie photo document pdf lien courriel seo slug adresse rang menu intertitre brouillon archivé mentions légales centré couleur encadré séparateur masquer masquée cacher épuisée">
         <p class="chapter-number">Chapitre 10</p><h2>Créer une page dans « Mes pages »</h2>
         <p class="goal">Exemples : Commandes, Soutien, Librairies, Amis ou une nouvelle page libre. Chemin : <strong>Pages → Mes pages → + Page</strong>.</p>
         <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/14-pages-liste.webp" data-alt="Liste de Mes pages"><img src="assets/images/14-pages-liste.webp" alt="Liste de Mes pages et bouton + Page"><span>Agrandir l’image</span></button><figcaption>Ouvrez une page existante ou cliquez sur « + Page ».</figcaption></figure>
@@ -237,8 +244,9 @@
           <article><span>1</span><h3>Texte</h3><p>Un intertitre facultatif et un texte mis en forme : gras, italique, barré, lien, intertitres, listes, citation, image au fil du texte (avec texte alternatif obligatoire), et blocs pour centrer, colorer, encadrer ou séparer (voir chapitre 13).</p></article>
           <article><span>2</span><h3>Texte et livres du catalogue</h3><p>La même chose, plus « Livres à montrer » : choisissez-les dans la liste. Ils s’affichent sous le texte avec leur couverture, leurs auteurs et leur prix, tirés de leur fiche. Rien à recopier.</p></article>
           <article><span>3</span><h3>Offre à vendre (bouton PayPal)</h3><p>Texte et livres, plus des « Boutons d’achat PayPal » : pour chacun, le texte du bouton (par exemple « Commander les deux tomes — 25 € ») et l’identifiant PayPal de 13 caractères, majuscules et chiffres.</p></article>
-          <article><span>4</span><h3>Ranger les sections</h3><p>La poignée ≡ change l’ordre. Chaque section se replie pour gagner de la place. Une page garde au moins une section. La première sert aussi de résumé de la page sur « La maison ».</p></article>
+          <article><span>4</span><h3>Ranger les sections</h3><p>Une nouvelle section s’ajoute en bas de la liste ; la poignée ≡ la remonte. Chaque section se replie pour gagner de la place. Une page garde au moins une section visible. La première visible sert aussi de résumé de la page sur « La maison ».</p></article>
         </div>
+        <aside class="callout callout-help"><strong>Masquer une section plutôt que la supprimer</strong><p>Une offre épuisée, un texte de saison : cochez « Masquer cette section », au bas de la section. Elle disparaît du site mais garde ses textes ; dans l’aperçu, elle reste grisée avec la mention « Masqué sur le site ». Décochez la case pour la faire revenir.</p></aside>
         <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/15-page-fiche.webp" data-alt="Page Offres spéciales"><img src="assets/images/15-page-fiche.webp" alt="Page Offres spéciales : sections de type Offre à vendre et aperçu"><span>Agrandir l’image</span></button><figcaption>La page Offres spéciales : une section Offre à vendre par offre, avec ses deux livres et son bouton. Chaque section affiche son type au-dessus de son titre.</figcaption></figure>
         <aside class="callout callout-warning"><strong>Vendre depuis une page</strong><p>Un livre à son prix normal se vend depuis sa fiche (chapitre 5), pas ici. L’offre d’une page sert à ce qui n’appartient à aucun livre : lot de deux tomes, adhésion, don, prix soldé. C’est l’identifiant PayPal, et lui seul, qui décide de l’article et du montant facturés : <strong>ne recopiez jamais celui d’une fiche de livre</strong> pour un prix réduit, PayPal ferait payer le plein tarif. Créez un bouton dédié dans PayPal, puis, après publication, cliquez dessus pour vérifier l’article et le montant. Le bouton « voir mon panier » est déjà dans le menu du site : rien à ajouter.</p></aside>
 

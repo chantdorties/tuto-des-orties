@@ -1,8 +1,16 @@
 # Captures à refaire
 
-Aucune. Les vingt premières captures ont été refaites le 9 octobre 2026 contre `main`
+Les vingt premières captures ont été refaites le 9 octobre 2026 contre `main`
 (commit `4f4388e`), les captures 21 et 22 (blocs de mise en forme) contre `f15154b` ;
 voir `matrice-captures.md`.
+
+Depuis la PR #37 (`a16b2d6`), quelques détails ont changé, sans gêner la lecture :
+
+- `04-accueil` : les champs devenus facultatifs portent la mention « optionnel », et
+  les blocs 2 à 4 commencent par la case « Masquer ce bloc » (hors du cadre actuel) ;
+- `19-page-principale` : « Rubrique » et « Introduction » portent la mention
+  « optionnel » ;
+- `15-page-fiche` : chaque section se termine par la case « Masquer cette section ».
 
 ## Quand refaire une capture
 

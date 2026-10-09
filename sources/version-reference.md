@@ -24,6 +24,12 @@ barré et les blocs de mise en forme (texte mis en valeur, encadré, séparateur
 les sections de « Mes pages » et le corps des actualités : chapitres 8, 10 et 13,
 captures 21 et 22.
 
+Mise à jour suivante : `main`, commit `a16b2d6` (PR #37). Elle permet de masquer les
+blocs 2 à 4 de l’accueil, le bloc Facebook des actualités et chaque section de
+« Mes pages » (case « Masquer ce bloc » ou « Masquer cette section »), et rend
+facultatifs les champs de l’accueil (sauf le grand titre) ainsi que la petite ligne et
+l’introduction des pages principales : chapitres 3, 4 et 10.
+
 ## Règle de provenance
 
 - L’écran de connexion peut provenir de l’adresse publique.
