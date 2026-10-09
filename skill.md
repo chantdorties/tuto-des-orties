@@ -203,6 +203,16 @@ l’avancement de la modification, pas la visibilité du contenu.
   desktop, tablette et mobile.
 - Les couleurs doivent rester lisibles sur les fonds, liens, boutons et textes.
 
+### Bannière cookies
+
+- Le gabarit commun affiche une bannière accessible sur chaque page publique.
+- Elle ne déclenche aucun traceur et ne dépose aucun cookie : le choix « Accepter »
+  ou « Refuser » est mémorisé uniquement dans `localStorage` pour éviter de répéter
+  la bannière sur le même navigateur.
+- Le comportement est dans `frontend/assets/js/site.js` et le style dans
+  `frontend/assets/css/43-banniere-cookies.css` ; ne pas ajouter d’outil de suivi sans
+  revoir les mentions légales et le consentement.
+
 ### Style des formulaires et aperçus
 
 - Employer des libellés simples pour une personne non technique.
