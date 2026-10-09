@@ -1,34 +1,32 @@
 # Matrice des captures
 
-Toutes les images sont prises le 9 octobre 2026 sur la version locale `9d9c784`, sauf
-mention contraire. Une capture doit montrer le libellé, l’action et le résultat utile.
-
-Les captures liées à la nouvelle organisation des pages doivent être refaites contre la
-branche `feat/page-simple` : les anciennes images ne doivent plus afficher « Page
-d’accueil » dans Réglages ni « Pages de la maison » comme rubrique unique.
+Toutes les images ont été refaites le 9 octobre 2026 en 1440 × 900, sur l’administration
+locale à jour de `main` (commit `4f4388e`), après chargement complet des aperçus et des
+vignettes. Seule la connexion vient de l’adresse publique, dans une session déconnectée.
+Rien n’a été enregistré. Une capture doit montrer le libellé, l’action et le résultat utile.
 
 | Image | Écran | Utilité | Source |
 | ----- | ----- | ------- | ------ |
-| `01-connexion.webp` | Connexion | Repérer le bouton de connexion | locale, déconnectée |
-| `02-tableau-de-bord.webp` | Tableau de bord | Comprendre menu, recherche et rubriques | locale |
-| `03-reglages.webp` | Réglages du site | Repérer identité, menu, pied de page, paiement et apparence | locale, à recadrer |
-| `04-accueil.webp` | Accueil | Relier formulaire et aperçu numéroté | locale, formulaire existant ; chemin à mettre à jour |
-| `17-pages-menu.webp` | Menu Pages | Voir « Pages principales » et « Mes pages » | à recapturer |
-| `18-pages-principales.webp` | Pages principales | Voir les fiches des pages générées | à recapturer |
-| `19-page-accueil.webp` | Pages principales › Accueil | Voir la fiche déplacée depuis les anciens réglages | à recapturer |
-| `05-apparence.webp` | Apparence | Changer couleurs et polices avec aperçu | locale |
-| `06-livres-liste.webp` | Livres | Recherche, filtres, vignettes et ajout | locale |
-| `07-livre-fiche.webp` | Livre | L’essentiel et aperçu de la fiche | locale |
-| `08-personnes-liste.webp` | Personnes | Portraits ou initiales et ajout | locale |
-| `09-personne-fiche.webp` | Personne | Rôles, portrait et biographie | locale |
-| `10-collections-liste.webp` | Collections | Emblèmes et ordre | locale |
-| `11-collection-fiche.webp` | Collection | Emblème, texte alternatif et présentation | locale |
+| `01-connexion.webp` | Connexion | Repérer le bouton de connexion | adresse publique, session déconnectée |
+| `02-tableau-de-bord.webp` | Tableau de bord | Menu (groupe Pages déplié), barre du haut avec Tutoriel | locale |
+| `03-reglages.webp` | Réglages › Identité et contact | Formulaire de réglage et son aperçu | locale |
+| `04-accueil.webp` | Pages principales › Accueil | Relier formulaire et aperçu numéroté | locale |
+| `05-apparence.webp` | Réglages › Apparence | Changer couleurs et polices avec aperçu | locale |
+| `06-livres-liste.webp` | Livres | Couvertures, ★, filtres et ajout | locale |
+| `07-livre-fiche.webp` | Livres › Ville rouge | L’essentiel et aperçu de la fiche | locale |
+| `08-personnes-liste.webp` | Auteurs et illustrateurs | Portraits ou initiales et ajout | locale |
+| `09-personne-fiche.webp` | Auteurs › Béatrice Guillemard | Rôles, portrait et aperçu | locale |
+| `10-collections-liste.webp` | Collections | Emblèmes et ajout | locale |
+| `11-collection-fiche.webp` | Collections › Les coquelicots sauvages | Emblème, texte alternatif et aperçu | locale |
 | `12-actualites.webp` | Actualités | Liste et création d’un article | locale |
 | `13-projets.webp` | Projets | Projets à paraître et suppression autorisée | locale |
-| `14-pages-liste.webp` | Mes pages | Trouver ou créer une page libre | locale, à recadrer |
-| `15-page-fiche.webp` | Mes pages › Page | Sections, livres et boutons de vente | locale |
-| `20-mes-pages-page.webp` | Mes pages › Page | Voir les types Texte, Livres et Offre | à recapturer |
-| `16-medias.webp` | Médiathèque | Ajouter et retrouver un média | locale |
+| `14-pages-liste.webp` | Pages › Mes pages | Trouver ou créer une page libre | locale |
+| `15-page-fiche.webp` | Mes pages › Offres spéciales | Sections typées (Offre à vendre) et aperçu | locale |
+| `16-medias.webp` | Media | Médiathèque : retrouver et téléverser | locale |
+| `17-pages-menu.webp` | Menu Pages | Le groupe Pages déplié (recadrage de 18) | locale |
+| `18-pages-principales.webp` | Pages › Pages principales | Les sept pages principales | locale |
+| `19-page-principale.webp` | Pages principales › Catalogue | Fiche d’une page principale et aperçu | locale |
+| `20-mes-pages-page.webp` | Mes pages › + Page | Nouvelle page : titre et section Texte ouverte | locale, non enregistrée |
 
 ## Parcours couverts par le texte
 

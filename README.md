@@ -12,13 +12,10 @@ personne ouvre ensuite la véritable administration pour modifier le site.
 
 ## Version illustrée
 
-- référence du code analysé : branche `main`, commit `4f4388e`, 9 octobre 2026 (PR #27 à #29 fusionnées) ;
-- changements de pages intégrés : `2c16898`, `78d01ec`, `1199017`, `cd10fef`, `e2c19be`,
-  `e8bc2cb` ;
-- captures déjà présentes : elles proviennent d’une version locale précédente et
-  illustrent encore les formulaires communs (livres, collections, personnes, réglages) ;
-- captures spécifiques de la nouvelle arborescence « Pages » : à refaire dès que
-  l’administration locale est accessible dans le navigateur de capture.
+- référence du code : branche `main`, commit `4f4388e`, 9 octobre 2026 ;
+- les vingt captures ont été refaites ce jour-là sur cette version (voir
+  `sources/matrice-captures.md`), y compris le menu « Pages », les Pages principales et
+  une nouvelle page de « Mes pages ».
 
 Les captures montrent uniquement des consultations ou des saisies non enregistrées.
 Aucun contenu de démonstration n’a été publié.
@@ -31,9 +28,6 @@ Aucun contenu de démonstration n’a été publié.
 4. Mettre à jour la date et la version dans ce fichier et dans l’en-tête du tutoriel.
 5. Refaire les contrôles décrits dans `controle-livraison.md`.
 
-Pour la réorganisation actuelle, suivre en priorité `sources/matrice-captures.md` :
-les anciennes captures « Page d’accueil » sous les réglages et « Pages de la maison »
-ne doivent pas être réutilisées comme preuve du nouveau parcours.
 
 ## Vie privée
 
