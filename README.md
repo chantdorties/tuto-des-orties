@@ -12,7 +12,7 @@ personne ouvre ensuite la véritable administration pour modifier le site.
 
 ## Version illustrée
 
-- référence du code analysé : branche `feat/page-simple`, commit `e7b46ac`, 9 octobre 2026 ;
+- référence du code analysé : branche `main`, commit `4f4388e`, 9 octobre 2026 (PR #27 à #29 fusionnées) ;
 - changements de pages intégrés : `2c16898`, `78d01ec`, `1199017`, `cd10fef`, `e2c19be`,
   `e8bc2cb` ;
 - captures déjà présentes : elles proviennent d’une version locale précédente et
