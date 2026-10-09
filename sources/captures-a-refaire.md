@@ -11,6 +11,10 @@ Depuis la PR #37 (`a16b2d6`), quelques détails ont changé, sans gêner la lect
 - `19-page-principale` : « Rubrique » et « Introduction » portent la mention
   « optionnel » ;
 - `15-page-fiche` : chaque section se termine par la case « Masquer cette section ».
+- `19-page-principale` : depuis la PR #38, un groupe « Sections ajoutées » suit
+  l’introduction (sous le cadre actuel).
+
+La capture 23 (sections ajoutées) a été prise contre `3239698`.
 
 ## Quand refaire une capture
 

@@ -30,6 +30,10 @@ blocs 2 à 4 de l’accueil, le bloc Facebook des actualités et chaque section 
 facultatifs les champs de l’accueil (sauf le grand titre) ainsi que la petite ligne et
 l’introduction des pages principales : chapitres 3, 4 et 10.
 
+Mise à jour suivante : `main`, commit `3239698` (PR #38). Elle ajoute à chaque page
+principale un groupe « Sections ajoutées » (texte, livres, offre PayPal) placé à un
+emplacement choisi : chapitres 3 et 4, capture 23.
+
 ## Règle de provenance
 
 - L’écran de connexion peut provenir de l’adresse publique.
