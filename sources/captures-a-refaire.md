@@ -17,10 +17,12 @@ Depuis la PR #37 (`a16b2d6`), quelques détails ont changé, sans gêner la lect
 La capture 23 (sections ajoutées) a été prise contre `3239698`. Les captures 22 et 24
 ont été refaites, et 25 et 26 ajoutées, contre `069073d` (PR #42 et #43).
 
-- `21-blocs` : le menu des blocs compte maintenant aussi « Image placée » et « Bouton »
-  (hors du cadre actuel).
+- `21-blocs` : le menu des blocs compte maintenant aussi « Image placée », « Bouton »,
+  « Tableau » et « Vidéo » (hors du cadre actuel).
+- `22-composants` : le menu ne montre pas encore « Tableau » et « Vidéo ».
 
 La capture 27 (six sortes de section) a été prise contre `e35c257` (PR #44).
+La capture 28 (tableau et vidéo) a été prise contre `e7c5993` (PR #45).
 
 - `23-sections-ajoutees` : le menu « Ajouter une entrée de type section » propose
   maintenant six sortes, et non plus trois.

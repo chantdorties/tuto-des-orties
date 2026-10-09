@@ -34,6 +34,7 @@ Rien n’a été enregistré. Une capture doit montrer le libellé, l’action e
 | `25-bouton.webp` | Mes pages › une page, bloc « Bouton » vers un livre | Régler un bouton et le voir dans l’aperçu | locale, page d’essai non enregistrée (`069073d`) |
 | `26-image-placee.webp` | Site public, page d’essai : image « petite, à droite » et bouton | Voir le résultat d’une image placée | génération locale dans un dossier à part, page d’essai jamais enregistrée (`069073d`) : l’aperçu de l’admin ne montre pas une image tout juste déposée |
 | `27-sections.webp` | Mes pages, page d’essai : menu « Ajouter une entrée de type section » ouvert | Voir les six sortes de section | locale, page d’essai jamais enregistrée (`e35c257`) |
+| `28-tableau-video.webp` | Mes pages, page d’essai : blocs « Tableau » et « Vidéo » dépliés, avec l’aperçu | Remplir un tableau, coller l’adresse d’une vidéo | locale, page d’essai jamais enregistrée (`e7c5993`, PR #45) |
 
 ## Parcours couverts par le texte
 
