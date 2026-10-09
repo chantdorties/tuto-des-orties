@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Guide illustré pour administrer le site des Éditions Chant d’orties.">
+  <title>Mode d’emploi de l’administration — Chant d’orties</title>
+  <link rel="stylesheet" href="assets/css/tutoriel.css">
+  <script src="assets/js/tutoriel.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller directement au tutoriel</a>
+
+  <header class="site-header">
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu">☰ <span>Menu</span></button>
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <div>
+        <p class="eyebrow">Éditions Chant d’orties</p>
+        <p class="brand-title">Mode d’emploi de l’administration</p>
+      </div>
+    </div>
+    <label class="search-box">
+      <span>Rechercher dans le guide</span>
+      <input id="search" type="search" placeholder="Ex. livre, image, publier…" autocomplete="off">
+    </label>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="menu" aria-label="Chapitres du tutoriel">
+      <div class="sidebar-inner">
+        <p class="version">Guide vérifié le 9 octobre 2026</p>
+        <div class="progress-summary" aria-live="polite">
+          <span id="progress-text">0 chapitre terminé</span>
+          <span class="progress-track" aria-hidden="true"><span id="progress-bar"></span></span>
+        </div>
+        <ol class="chapter-list">
+          <li><a href="#bienvenue">Commencer ici</a></li>
+          <li><a href="#connexion">1. Se connecter</a></li>
+          <li><a href="#publication">2. Enregistrer et publier</a></li>
+          <li><a href="#accueil">3. Modifier l’accueil</a></li>
+          <li><a href="#pages-principales">4. Pages principales</a></li>
+          <li><a href="#livres">5. Ajouter un livre</a></li>
+          <li><a href="#personnes">6. Créer une personne</a></li>
+          <li><a href="#collections">7. Gérer une collection</a></li>
+          <li><a href="#actualites">8. Ajouter une actualité</a></li>
+          <li><a href="#projets">9. Gérer les projets</a></li>
+          <li><a href="#pages">10. Créer une page</a></li>
+          <li><a href="#reglages">11. Réglages du site</a></li>
+          <li><a href="#apparence">12. Couleurs et polices</a></li>
+          <li><a href="#medias">13. Images et textes</a></li>
+          <li><a href="#depannage">14. Corriger une erreur</a></li>
+        </ol>
+        <button class="reset-progress" id="reset-progress" type="button">Réinitialiser ma progression</button>
+      </div>
+    </nav>
+
+    <main id="contenu">
+      <p class="no-results" id="no-results" hidden>Aucun chapitre ne correspond à cette recherche.</p>
+
+      <section class="tutorial-section hero" id="bienvenue" data-title="Commencer ici" data-keywords="début aide mode emploi sécurité">
+        <p class="chapter-number">Avant de commencer</p>
+        <h1>Vous ne pouvez pas casser le site en enregistrant un brouillon.</h1>
+        <p class="lead">Ce guide vous accompagne clic après clic. Prenez le temps de vérifier l’aperçu : rien n’est visible du public tant que vous n’avez pas accompli le second geste, <strong>Publier</strong>.</p>
+        <div class="quick-grid">
+          <article><span aria-hidden="true">1</span><h2>Choisissez</h2><p>Ouvrez la rubrique correspondant à ce que vous voulez changer.</p></article>
+          <article><span aria-hidden="true">2</span><h2>Vérifiez</h2><p>Regardez l’aperçu à droite avant d’enregistrer.</p></article>
+          <article><span aria-hidden="true">3</span><h2>Publiez</h2><p>Placez la modification dans « Prêt », puis cliquez sur « Publier ».</p></article>
+        </div>
+        <aside class="callout callout-safe"><strong>Règle de sécurité</strong><p>Ne communiquez jamais votre mot de passe GitHub. L’administration ne vous demandera jamais de le copier dans une fiche.</p></aside>
+        <div class="orientation">
+          <div><strong>Colonne de gauche</strong><span>Les champs que vous modifiez</span></div>
+          <div><strong>Colonne de droite</strong><span>L’aperçu du résultat</span></div>
+          <div><strong>Réglages techniques</strong><span>À laisser tranquilles sauf besoin précis</span></div>
+        </div>
+        <div class="section-actions"><a class="next-link" href="#connexion">Commencer le tutoriel →</a></div>
+      </section>
+
+      <section class="tutorial-section" id="connexion" data-title="Se connecter" data-keywords="connexion github compte adresse administration">
+        <p class="chapter-number">Chapitre 1</p><h2>Se connecter et trouver la bonne rubrique</h2>
+        <p class="goal">Objectif : entrer dans l’administration et reconnaître les zones principales.</p>
+        <ol class="steps">
+          <li><span class="step-number">1</span><div><h3>Ouvrez l’administration</h3><p>Allez sur <strong>chantdorties.pages-perso.free.fr/admin/</strong>.</p></div></li>
+          <li><span class="step-number">2</span><div><h3>Cliquez sur « Se connecter avec GitHub »</h3><p>Autorisez l’accès si GitHub le demande. Vous devez utiliser un compte invité sur le dépôt du site.</p></div></li>
+          <li><span class="step-number">3</span><div><h3>Choisissez une rubrique dans la colonne de gauche</h3><p>Les réglages concernent tout le site. Les autres rubriques contiennent les livres, personnes, collections, actualités, projets et pages.</p></div></li>
+        </ol>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/01-connexion.webp" data-alt="Écran de connexion de l’administration"><img src="assets/images/01-connexion.webp" alt="Écran de connexion avec le bouton Se connecter avec GitHub"><span>Agrandir l’image</span></button><figcaption>Le seul bouton nécessaire pour entrer dans l’administration.</figcaption></figure>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/02-tableau-de-bord.webp" data-alt="Tableau de bord et rubriques de l’administration"><img src="assets/images/02-tableau-de-bord.webp" alt="Tableau de bord avec le menu des rubriques à gauche"><span>Agrandir l’image</span></button><figcaption>À gauche : les rubriques. En haut : Contenus, Media, Ajout rapide et le lien vers le site.</figcaption></figure>
+        <aside class="callout callout-help"><strong>Si la fenêtre reste sur « Connexion en cours… »</strong><p>Ce n’est pas une erreur de saisie. Fermez la fenêtre, rechargez la page et réessayez. Si le problème continue, signalez-le.</p></aside>
+        <button class="complete-button" type="button" data-complete="connexion">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="publication" data-title="Enregistrer et publier" data-keywords="workflow brouillon prêt révision enregistrer publier archive statut aperçu">
+        <p class="chapter-number">Chapitre 2</p><h2>Comprendre l’enregistrement et la publication</h2>
+        <p class="goal">Objectif : savoir exactement quand une modification devient visible.</p>
+        <div class="workflow" aria-label="Les quatre étapes de publication">
+          <div><span>1</span><strong>Enregistrer</strong><small>Crée une modification</small></div><b aria-hidden="true">→</b>
+          <div><span>2</span><strong>Brouillons</strong><small>Travail en préparation</small></div><b aria-hidden="true">→</b>
+          <div><span>3</span><strong>Prêt</strong><small>Modification vérifiée</small></div><b aria-hidden="true">→</b>
+          <div><span>4</span><strong>Publier</strong><small>Met la modification en ligne</small></div>
+        </div>
+        <aside class="callout callout-warning"><strong>Deux « brouillons » différents</strong><p>La colonne <em>Brouillons</em> indique où se trouve votre modification. Le champ <em>Publication : Brouillon</em> indique que la fiche restera cachée même après publication. Ce ne sont pas la même chose.</p></aside>
+        <div class="status-table" role="table" aria-label="Signification des statuts">
+          <div role="row"><strong role="cell">Publié</strong><span role="cell">Visible sur le site après publication.</span></div>
+          <div role="row"><strong role="cell">Brouillon</strong><span role="cell">Invisible du public, mais visible dans l’aperçu.</span></div>
+          <div role="row"><strong role="cell">Archivé</strong><span role="cell">Retiré du site sans être supprimé.</span></div>
+        </div>
+        <ol class="steps compact">
+          <li><span class="step-number">1</span><div><h3>Vérifiez l’aperçu</h3><p>Il se met à jour pendant votre saisie.</p></div></li>
+          <li><span class="step-number">2</span><div><h3>Enregistrez</h3><p>La modification rejoint la colonne Brouillons du flux éditorial.</p></div></li>
+          <li><span class="step-number">3</span><div><h3>Déplacez-la vers « Prêt »</h3><p>Faites-le uniquement après avoir relu les textes, images, prix et liens.</p></div></li>
+          <li><span class="step-number">4</span><div><h3>Cliquez sur « Publier »</h3><p>Attendez la reconstruction, puis utilisez « Voir en direct » pour contrôler le site public.</p></div></li>
+        </ol>
+        <button class="complete-button" type="button" data-complete="publication">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="accueil" data-title="Modifier l’accueil" data-keywords="accueil bandeau information couvertures collections suivre maison mise avant">
+        <p class="chapter-number">Chapitre 3</p><h2>Modifier la page d’accueil</h2>
+        <p class="goal">Chemin : <strong>Pages → Pages principales → Accueil</strong>.</p>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/04-accueil.webp" data-alt="Formulaire de la page d’accueil et aperçu"><img src="assets/images/04-accueil.webp" alt="Formulaire de la page d’accueil à gauche et aperçu à droite"><span>Agrandir l’image</span></button><figcaption>Le formulaire suit la page de haut en bas. Les numéros de l’aperçu correspondent aux numéros du formulaire.</figcaption></figure>
+        <div class="map-grid">
+          <article><span>1</span><h3>Le bandeau d’ouverture</h3><p>Rubrique, grand titre, fin du titre en couleur, accroche et deux boutons.</p></article>
+          <article><span>2</span><h3>Le bloc d’information</h3><p>Situation de la maison, commandes, libraires, particuliers, don et offres.</p></article>
+          <article><span>3</span><h3>Les collections</h3><p>Titre et texte au-dessus des six collections.</p></article>
+          <article><span>4</span><h3>Suivre la maison</h3><p>Bandeau sombre avec les cartes Actualités et Manuscrits.</p></article>
+        </div>
+        <aside class="callout callout-help"><strong>Les couvertures ne se choisissent pas ici</strong><p>Ouvrez chaque livre et cochez « Mis en avant sur l’accueil ». Une seule couverture par collection peut être sélectionnée. Le champ « Nombre de couvertures affichées » décide combien seront montrées.</p></aside>
+        <button class="complete-button" type="button" data-complete="accueil">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="pages-principales" data-title="Pages principales" data-keywords="pages accueil catalogue auteurs collections actualités maison projets introduction seo anciennes adresses">
+        <p class="chapter-number">Chapitre 4</p><h2>Modifier une page principale</h2>
+        <p class="goal">Les pages générées ont maintenant chacune leur propre fiche : <strong>Pages → Pages principales</strong>.</p>
+        <div class="map-grid">
+          <article><span>1</span><h3>Accueil</h3><p>Tout le contenu de la page d’accueil, son référencement et ses anciennes adresses.</p></article>
+          <article><span>2</span><h3>Catalogue</h3><p>Petite ligne, titre, introduction et description SEO ; la liste des livres se remplit automatiquement.</p></article>
+          <article><span>3</span><h3>Auteurs et illustrateurs</h3><p>Introduction et référencement de la page des personnes.</p></article>
+          <article><span>4</span><h3>Collections, Actualités, La maison et Projets</h3><p>Une fiche séparée pour chaque page, avec ses propres textes et réglages techniques.</p></article>
+        </div>
+        <ol class="steps compact">
+          <li><span class="step-number">1</span><div><h3>Ouvrez le menu « Pages »</h3><p>Il rassemble « Pages principales » et « Mes pages ». Dépliez-le si nécessaire.</p></div></li>
+          <li><span class="step-number">2</span><div><h3>Choisissez la page à modifier</h3><p>La liste, les livres, les auteurs et les actualités ne se modifient pas ici : ils viennent de leurs rubriques respectives.</p></div></li>
+          <li><span class="step-number">3</span><div><h3>Ouvrez « Réglages techniques » seulement si besoin</h3><p>Ce bloc replié contient référencement et anciennes adresses. Le jeton <code>{nombre}</code> devient automatiquement le nombre réel.</p></div></li>
+        </ol>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/04-accueil.webp" data-alt="Fiche Accueil dans Pages principales — capture à renouveler après déploiement"><img src="assets/images/04-accueil.webp" alt="Formulaire de la page d’accueil avec aperçu à droite"><span>Agrandir l’image</span></button><figcaption>Le formulaire de l’Accueil reste organisé par sections ; son emplacement change vers « Pages principales ». Capture de formulaire conservée, nouvelle capture de la navigation à faire après accès à la version déployée.</figcaption></figure>
+        <aside class="callout callout-warning"><strong>Ne cherchez plus l’accueil dans Réglages du site</strong><p>Réglages du site contient désormais uniquement ce qui vaut pour tout le site : identité, menu, pied de page, paiement et apparence.</p></aside>
+        <button class="complete-button" type="button" data-complete="pages-principales">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="livres" data-title="Ajouter un livre" data-keywords="livre couverture auteur paypal isbn prix disponible accueil extrait pdf ordre">
+        <p class="chapter-number">Chapitre 5</p><h2>Ajouter ou modifier un livre</h2>
+        <p class="goal">Objectif : créer une fiche complète et vendable sans oublier les contenus liés.</p>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/06-livres-liste.webp" data-alt="Liste des livres"><img src="assets/images/06-livres-liste.webp" alt="Liste des livres avec filtres et bouton Ajouter un livre"><span>Agrandir l’image</span></button><figcaption>Utilisez la recherche ou les filtres. L’étoile repère les livres mis en avant sur l’accueil.</figcaption></figure>
+        <ol class="steps">
+          <li><span class="step-number">1</span><div><h3>Vérifiez que les auteurs existent</h3><p>S’ils ne sont pas proposés dans la liste, créez d’abord leur fiche dans « Auteurs et illustrateurs » et cochez le bon rôle.</p></div></li>
+          <li><span class="step-number">2</span><div><h3>Cliquez sur « + Livre »</h3><p>Renseignez le titre, la publication, la collection, au moins un auteur, la couverture et la présentation.</p></div></li>
+          <li><span class="step-number">3</span><div><h3>Complétez la vente</h3><p>Indiquez le prix et l’identifiant PayPal de 13 caractères. Si le livre n’est pas disponible, décochez « Disponible ».</p></div></li>
+          <li><span class="step-number">4</span><div><h3>Ajoutez les caractéristiques</h3><p>Type, âge, format, reliure, ISBN, illustrations et extraits PDF.</p></div></li>
+          <li><span class="step-number">5</span><div><h3>Réglez la mise en avant</h3><p>Une collection doit avoir exactement un livre disponible mis en avant. Donnez-lui un ordre unique.</p></div></li>
+          <li><span class="step-number">6</span><div><h3>Relisez l’adresse</h3><p>Après la première publication, ne changez plus l’adresse. Si cela devient indispensable, ajoutez l’ancienne adresse dans le champ prévu.</p></div></li>
+        </ol>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/07-livre-fiche.webp" data-alt="Fiche d’un livre"><img src="assets/images/07-livre-fiche.webp" alt="Fiche d’un livre avec les champs à gauche et l’aperçu à droite"><span>Agrandir l’image</span></button><figcaption>La fiche commence par l’essentiel. Les parties Vente, Caractéristiques et Réglages techniques se trouvent plus bas.</figcaption></figure>
+        <aside class="callout callout-warning"><strong>Vérifiez toujours le bouton PayPal après publication</strong><p>PayPal doit afficher le bon article et le bon montant. Pour une offre spéciale, créez un bouton PayPal propre à l’offre : ne réutilisez pas celui du livre au plein tarif.</p></aside>
+        <button class="complete-button" type="button" data-complete="livres">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="personnes" data-title="Créer une personne" data-keywords="auteur illustrateur préfacier portrait biographie rôle personne">
+        <p class="chapter-number">Chapitre 6</p><h2>Créer un auteur, un illustrateur ou un préfacier</h2>
+        <p class="goal">Chemin : <strong>Auteurs et illustrateurs → + Personne</strong>.</p>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/08-personnes-liste.webp" data-alt="Liste des auteurs et illustrateurs"><img src="assets/images/08-personnes-liste.webp" alt="Liste des personnes avec portraits ou initiales"><span>Agrandir l’image</span></button><figcaption>Le portrait apparaît dans la liste. Sans portrait, les initiales servent de repère.</figcaption></figure>
+        <ol class="steps compact">
+          <li><span class="step-number">1</span><div><h3>Écrivez le nom et choisissez la publication</h3><p>Gardez la fiche en Brouillon si aucun livre associé n’est encore publié.</p></div></li>
+          <li><span class="step-number">2</span><div><h3>Cochez tous les rôles utiles</h3><p>Le rôle décide si la personne sera proposée comme auteur, illustrateur ou préfacier dans les livres.</p></div></li>
+          <li><span class="step-number">3</span><div><h3>Ajoutez portrait et biographie</h3><p>Vous pouvez aussi ajouter d’autres images et des liens externes.</p></div></li>
+          <li><span class="step-number">4</span><div><h3>Vérifiez l’aperçu</h3><p>Le volet de droite montre le portrait, les rôles, la biographie et les livres liés.</p></div></li>
+        </ol>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/09-personne-fiche.webp" data-alt="Fiche d’une personne"><img src="assets/images/09-personne-fiche.webp" alt="Formulaire d’une personne et aperçu"><span>Agrandir l’image</span></button><figcaption>Une personne peut cumuler plusieurs rôles.</figcaption></figure>
+        <button class="complete-button" type="button" data-complete="personnes">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="collections" data-title="Gérer une collection" data-keywords="collection emblème logo ordre alt présentation">
+        <p class="chapter-number">Chapitre 7</p><h2>Gérer une collection et son emblème</h2>
+        <p class="goal">Objectif : modifier la présentation et le petit dessin propre à une collection.</p>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/10-collections-liste.webp" data-alt="Liste des collections"><img src="assets/images/10-collections-liste.webp" alt="Liste des collections avec leurs emblèmes"><span>Agrandir l’image</span></button><figcaption>L’emblème permet de reconnaître la collection dans la liste.</figcaption></figure>
+        <ol class="steps compact">
+          <li><span class="step-number">1</span><div><h3>Ouvrez la collection</h3><p>Modifiez son nom, son statut ou sa présentation.</p></div></li>
+          <li><span class="step-number">2</span><div><h3>Choisissez l’emblème</h3><p>Utilisez une image détourée et renseignez obligatoirement son texte alternatif.</p></div></li>
+          <li><span class="step-number">3</span><div><h3>Vérifiez l’ordre</h3><p>Le plus petit nombre apparaît en premier. Deux collections ne doivent pas partager le même rang.</p></div></li>
+        </ol>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/11-collection-fiche.webp" data-alt="Fiche d’une collection"><img src="assets/images/11-collection-fiche.webp" alt="Formulaire de collection avec emblème et aperçu"><span>Agrandir l’image</span></button><figcaption>L’emblème s’affiche sur la page de la collection et sur l’accueil.</figcaption></figure>
+        <button class="complete-button" type="button" data-complete="collections">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="actualites" data-title="Ajouter une actualité" data-keywords="actualité article date catégorie image résumé pdf lien identifiant">
+        <p class="chapter-number">Chapitre 8</p><h2>Ajouter une actualité</h2>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/12-actualites.webp" data-alt="Liste des actualités"><img src="assets/images/12-actualites.webp" alt="Liste des actualités et bouton d’ajout"><span>Agrandir l’image</span></button><figcaption>La date place automatiquement les actualités de la plus récente à la plus ancienne.</figcaption></figure>
+        <ol class="steps compact">
+          <li><span class="step-number">1</span><div><h3>Cliquez sur « + Actualité »</h3><p>Donnez un titre et choisissez Publié, Brouillon ou Archivé.</p></div></li>
+          <li><span class="step-number">2</span><div><h3>Choisissez date et catégorie</h3><p>Salon, parution, rencontre ou vie de la maison.</p></div></li>
+          <li><span class="step-number">3</span><div><h3>Écrivez résumé et article</h3><p>Le résumé tient en une ou deux phrases. Séparez les paragraphes du corps par une ligne vide.</p></div></li>
+          <li><span class="step-number">4</span><div><h3>Ajoutez si besoin une image, un lien ou un PDF</h3><p>Une image d’actualité exige un texte alternatif.</p></div></li>
+          <li><span class="step-number">5</span><div><h3>Renseignez l’identifiant</h3><p>Écrivez une forme courte sans accent, en minuscules et avec des tirets : <code>rencontre-a-lyon</code>.</p></div></li>
+        </ol>
+        <button class="complete-button" type="button" data-complete="actualites">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="projets" data-title="Gérer les projets" data-keywords="projet à paraître sortie supprimer auteur sans fiche collection">
+        <p class="chapter-number">Chapitre 9</p><h2>Ajouter, modifier ou retirer un projet</h2>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/13-projets.webp" data-alt="Liste des projets"><img src="assets/images/13-projets.webp" alt="Liste des projets à paraître"><span>Agrandir l’image</span></button><figcaption>Les projets sont les livres à paraître. Ils sont rassemblés sur une seule page publique.</figcaption></figure>
+        <ol class="steps compact">
+          <li><span class="step-number">1</span><div><h3>Ajoutez le titre et la description</h3><p>Choisissez aussi la collection et la période de sortie prévue.</p></div></li>
+          <li><span class="step-number">2</span><div><h3>Renseignez les intervenants</h3><p>Utilisez « Auteurs » si une fiche existe. Sinon, écrivez le nom dans « Auteurs sans fiche » ou « Illustrateurs sans fiche ».</p></div></li>
+          <li><span class="step-number">3</span><div><h3>Au moment de la parution</h3><p>Créez le livre, puis supprimez le projet. C’est la seule rubrique où la suppression est autorisée.</p></div></li>
+        </ol>
+        <button class="complete-button" type="button" data-complete="projets">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="pages" data-title="Créer une page" data-keywords="page maison section paypal livre lié galerie document seo slug mentions légales">
+        <p class="chapter-number">Chapitre 10</p><h2>Créer une page dans « Mes pages »</h2>
+        <p class="goal">Exemples : Commandes, Soutien, Librairies, Amis ou une nouvelle page libre. Chemin : <strong>Pages → Mes pages → + Page</strong>.</p>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/14-pages-liste.webp" data-alt="Liste des pages de la maison"><img src="assets/images/14-pages-liste.webp" alt="Liste des pages de la maison et bouton d’ajout"><span>Agrandir l’image</span></button><figcaption>Ouvrez une page existante ou utilisez le bouton d’ajout.</figcaption></figure>
+        <ol class="steps">
+          <li><span class="step-number">1</span><div><h3>Renseignez l’essentiel</h3><p>Titre, publication et texte de la première section. L’adresse est créée à partir du titre et ne change plus après la première publication.</p></div></li>
+          <li><span class="step-number">2</span><div><h3>Ajoutez une section par idée</h3><p>Le bouton propose trois types : <strong>Texte</strong>, <strong>Texte et livres du catalogue</strong>, ou <strong>Offre à vendre</strong> avec ses boutons PayPal. Utilisez la poignée ≡ pour changer l’ordre.</p></div></li>
+          <li><span class="step-number">3</span><div><h3>Reliez les livres utiles</h3><p>Dans « Livres de cette section », sélectionnez-les : couverture, auteurs et prix seront repris automatiquement.</p></div></li>
+          <li><span class="step-number">4</span><div><h3>Ajoutez un bouton PayPal seulement pour une offre propre à la page</h3><p>Exemples : lot de deux livres, adhésion, don ou prix soldé. Utilisez l’identifiant du bouton créé spécialement dans PayPal.</p></div></li>
+          <li><span class="step-number">5</span><div><h3>Ajoutez des liens, photos et documents</h3><p>Un lien peut viser un site, un courriel, un PDF, un livre ou une autre page du site. Puis relisez l’aperçu complet avant l’enregistrement.</p></div></li>
+        </ol>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/15-page-fiche.webp" data-alt="Fiche d’une page de la maison"><img src="assets/images/15-page-fiche.webp" alt="Formulaire d’une page avec sections et aperçu"><span>Agrandir l’image</span></button><figcaption>Chaque section se replie. L’aperçu montre immédiatement les textes, livres et images.</figcaption></figure>
+        <aside class="callout callout-warning"><strong>Mentions légales</strong><p>Cette page ne peut pas être dépubliée et son adresse doit rester <code>/mentions-legales/</code>.</p></aside>
+        <button class="complete-button" type="button" data-complete="pages">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="reglages" data-title="Réglages du site" data-keywords="identité contact menu pied page introductions paiement dons paypal navigation facebook seo">
+        <p class="chapter-number">Chapitre 11</p><h2>Savoir où modifier chaque élément</h2>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/03-reglages.webp" data-alt="Liste des réglages du site"><img src="assets/images/03-reglages.webp" alt="Les sept écrans de réglage du site"><span>Agrandir l’image</span></button><figcaption>Chaque élément global du site possède un seul emplacement.</figcaption></figure>
+        <div class="where-grid">
+          <article><h3>Identité et contact</h3><p>Nom de la maison, description pour Google, courriel, Facebook et domaine.</p></article>
+          <article><h3>Menu principal</h3><p>Libellés, adresses, visibilité et ordre par glisser-déposer.</p></article>
+          <article><h3>Pied de page</h3><p>Présentation visible et liens des colonnes du bas.</p></article>
+          <article><h3>Pages principales</h3><p>Accueil, Catalogue, Auteurs, Collections, Actualités, La maison et Projets.</p></article>
+          <article><h3>Mes pages</h3><p>Pages libres comme Commandes, Soutien, Librairies, Amis et Mentions légales.</p></article>
+          <article><h3>Introductions des pages</h3><p>En-têtes du catalogue, auteurs, collections, actualités, maison et projets.</p></article>
+          <article><h3>Paiement et dons</h3><p>Mots des boutons d’achat, don PayPal et panier.</p></article>
+          <article><h3>Apparence</h3><p>Neuf couleurs et deux polices.</p></article>
+        </div>
+        <aside class="callout callout-warning"><strong>Réglages techniques</strong><p>Ne changez pas le domaine ou l’adresse d’une page déjà publiée sans raison précise. Une ancienne adresse doit être conservée pour éviter les liens cassés.</p></aside>
+        <button class="complete-button" type="button" data-complete="reglages">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="apparence" data-title="Couleurs et polices" data-keywords="apparence couleur police thème fond bouton contraste restaurer origine">
+        <p class="chapter-number">Chapitre 12</p><h2>Changer les couleurs et les polices</h2>
+        <p class="goal">Chemin : <strong>Réglages du site → Apparence</strong>.</p>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/05-apparence.webp" data-alt="Réglages d’apparence"><img src="assets/images/05-apparence.webp" alt="Champs de couleurs et aperçu du thème"><span>Agrandir l’image</span></button><figcaption>La miniature à droite réagit immédiatement aux couleurs et polices choisies.</figcaption></figure>
+        <ol class="steps compact">
+          <li><span class="step-number">1</span><div><h3>Cliquez sur la couleur à changer</h3><p>Choisissez une teinte ou tapez son code, par exemple <code>#c63f32</code>.</p></div></li>
+          <li><span class="step-number">2</span><div><h3>Choisissez les polices dans les listes</h3><p>Une police pour les titres et une pour les textes.</p></div></li>
+          <li><span class="step-number">3</span><div><h3>Vérifiez la lisibilité</h3><p>Lisez le texte, les liens et le bouton dans l’aperçu. Évitez un texte clair sur un fond clair.</p></div></li>
+          <li><span class="step-number">4</span><div><h3>Enregistrez puis publiez</h3><p>Le thème sera appliqué à tout le site.</p></div></li>
+        </ol>
+        <details class="defaults"><summary>Valeurs d’origine à recopier</summary><dl><div><dt>Fond du site</dt><dd>#f7f7f4</dd></div><div><dt>Fond des cartes</dt><dd>#ffffff</dd></div><div><dt>Texte principal</dt><dd>#171a18</dd></div><div><dt>Texte secondaire</dt><dd>#626862</dd></div><div><dt>Couleur principale</dt><dd>#c63f32</dd></div><div><dt>Principale foncée</dt><dd>#963128</dd></div><div><dt>Secondaire</dt><dd>#3e6b50</dd></div><div><dt>Liens</dt><dd>#275c7a</dd></div><div><dt>Boutons</dt><dd>#171a18</dd></div></dl></details>
+        <button class="complete-button" type="button" data-complete="apparence">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="medias" data-title="Images et textes" data-keywords="media image téléverser texte alternatif alt éditeur gras italique lien paragraphe maj entrée">
+        <p class="chapter-number">Chapitre 13</p><h2>Ajouter des images et mettre un texte en forme</h2>
+        <figure class="screenshot"><button class="image-button" type="button" data-image="assets/images/16-medias.webp" data-alt="Médiathèque"><img src="assets/images/16-medias.webp" alt="Médiathèque avec recherche et bouton de téléversement"><span>Agrandir l’image</span></button><figcaption>Le bouton Media ouvre toutes les ressources déjà disponibles.</figcaption></figure>
+        <div class="two-columns">
+          <article><h3>Pour une image</h3><ul><li>20 Mo maximum.</li><li>Choisissez un fichier net et correctement orienté.</li><li>Décrivez l’image dans « Texte alternatif ».</li><li>N’écrivez pas « image de » : décrivez directement ce qui est utile.</li></ul></article>
+          <article><h3>Pour un texte</h3><ul><li>Une ligne vide sépare deux paragraphes.</li><li><kbd>Maj</kbd> + <kbd>Entrée</kbd> passe à la ligne sans changer de paragraphe.</li><li>Sélectionnez des mots avant d’ajouter un lien.</li><li>Utilisez les intertitres pour séparer les grandes idées.</li></ul></article>
+        </div>
+        <aside class="callout callout-help"><strong>Exemple de texte alternatif</strong><p>Bon : « Une enfant lit sous un cerisier en fleurs ». Trop vague : « Belle image ». Inutile : « Image d’une enfant qui lit ».</p></aside>
+        <button class="complete-button" type="button" data-complete="medias">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <section class="tutorial-section" id="depannage" data-title="Corriger une erreur" data-keywords="erreur refus validation ordre paypal alt média lien seo relation brouillon archive aide">
+        <p class="chapter-number">Chapitre 14</p><h2>Que faire quand la publication est refusée ?</h2>
+        <p class="lead small">Rien n’est perdu. Votre modification reste dans le flux éditorial : lisez le message, corrigez la fiche indiquée, puis relancez la publication.</p>
+        <div class="error-list">
+          <details><summary>« ordre … utilisé deux fois »</summary><p>Deux contenus ont le même rang. Changez le nombre de l’un des deux.</p></details>
+          <details><summary>« bouton PayPal obligatoire si disponible »</summary><p>Ajoutez l’identifiant PayPal de 13 caractères ou décochez « Disponible ».</p></details>
+          <details><summary>« texte alternatif obligatoire »</summary><p>Décrivez l’image dans le champ situé juste après celle-ci.</p></details>
+          <details><summary>« sélectionner exactement un livre … pour l’accueil »</summary><p>Dans la collection indiquée, cochez exactement un livre disponible et décochez l’ancien si nécessaire.</p></details>
+          <details><summary>« personne en brouillon » ou « livre lié non publié »</summary><p>Publiez d’abord le contenu lié, ou retirez-le de la fiche publique.</p></details>
+          <details><summary>« titre SEO trop long »</summary><p>Raccourcissez le titre à 60 caractères ou la description à 160 caractères.</p></details>
+          <details><summary>« média introuvable »</summary><p>Remettez l’image ou retirez sa référence dans le texte.</p></details>
+          <details><summary>« lien introuvable »</summary><p>Corrigez l’adresse du lien interne ou retirez-le.</p></details>
+        </div>
+        <div class="final-check"><h3>Avant chaque publication</h3><ul><li>Relire le titre et les textes.</li><li>Contrôler l’aperçu à droite.</li><li>Vérifier images et textes alternatifs.</li><li>Contrôler prix et bouton PayPal.</li><li>Ne pas changer une ancienne adresse sans redirection.</li><li>Après publication, ouvrir la vraie page.</li></ul></div>
+        <button class="complete-button" type="button" data-complete="depannage">Marquer ce chapitre comme terminé</button>
+      </section>
+
+      <nav class="bottom-nav" aria-label="Navigation entre les chapitres"><a id="previous-chapter" href="#bienvenue">← Chapitre précédent</a><a id="next-chapter" href="#connexion">Chapitre suivant →</a></nav>
+      <footer><p>Guide autonome — Éditions Chant d’orties — version du 9 octobre 2026.</p><p>Pour toute opération technique ou message inhabituel, ne forcez pas la publication : demandez de l’aide.</p></footer>
+    </main>
+  </div>
+
+  <dialog class="lightbox" id="lightbox"><div class="lightbox-header"><p id="lightbox-caption"></p><button type="button" id="close-lightbox" aria-label="Fermer l’image agrandie">Fermer ×</button></div><img id="lightbox-image" src="assets/images/01-connexion.webp" alt=""></dialog>
+</body>
+</html>
