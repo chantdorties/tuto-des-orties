@@ -12,8 +12,8 @@ personne ouvre ensuite la véritable administration pour modifier le site.
 
 ## Version illustrée
 
-- référence du code : branche `main`, commit `8686190`, 9 octobre 2026 (suppression des fiches, PR #41) ;
-- les vingt-quatre captures ont été faites ce jour-là sur cette version (voir
+- référence du code : branche `main`, commit `069073d`, 9 octobre 2026 (bouton « Supprimer », PR #42 ; blocs « Image placée » et « Bouton », PR #43) ;
+- les vingt-six captures ont été faites ce jour-là sur cette version (voir
   `sources/matrice-captures.md`), y compris le menu « Pages », les Pages principales et
   une nouvelle page de « Mes pages ».
 

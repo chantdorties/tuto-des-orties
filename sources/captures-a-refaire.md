@@ -14,7 +14,11 @@ Depuis la PR #37 (`a16b2d6`), quelques détails ont changé, sans gêner la lect
 - `19-page-principale` : depuis la PR #38, un groupe « Sections ajoutées » suit
   l’introduction (sous le cadre actuel).
 
-La capture 23 (sections ajoutées) a été prise contre `3239698`.
+La capture 23 (sections ajoutées) a été prise contre `3239698`. Les captures 22 et 24
+ont été refaites, et 25 et 26 ajoutées, contre `069073d` (PR #42 et #43).
+
+- `21-blocs` : le menu des blocs compte maintenant aussi « Image placée » et « Bouton »
+  (hors du cadre actuel).
 
 ## Quand refaire une capture
 
